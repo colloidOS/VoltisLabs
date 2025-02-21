@@ -14,6 +14,16 @@
 		0E0C815B2D67D53E002021C9 /* Voltis_LabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C815A2D67D53E002021C9 /* Voltis_LabsTests.swift */; };
 		0E0C81652D67D53E002021C9 /* Voltis_LabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C81642D67D53E002021C9 /* Voltis_LabsUITests.swift */; };
 		0E0C81672D67D53E002021C9 /* Voltis_LabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C81662D67D53E002021C9 /* Voltis_LabsUITestsLaunchTests.swift */; };
+		0E0C81752D67DBFC002021C9 /* LaunchscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C81742D67DBFC002021C9 /* LaunchscreenView.swift */; };
+		0E0C81772D67E8F0002021C9 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C81762D67E8F0002021C9 /* LogInView.swift */; };
+		0E15C21C2D68A1D900C56AAF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C21B2D68A1D900C56AAF /* HomeView.swift */; };
+		0E15C21F2D68BF6300C56AAF /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C21E2D68BF6300C56AAF /* PostModel.swift */; };
+		0E15C2232D68D06900C56AAF /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C2222D68D06900C56AAF /* ExploreView.swift */; };
+		0E15C2252D68D0D100C56AAF /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C2242D68D0D100C56AAF /* CaptureView.swift */; };
+		0E15C2272D68D0F400C56AAF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C2262D68D0F400C56AAF /* ProfileView.swift */; };
+		0E15C2292D68D10A00C56AAF /* InfinityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C2282D68D10A00C56AAF /* InfinityView.swift */; };
+		0E15C22B2D68D22000C56AAF /* ExpandableDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15C22A2D68D22000C56AAF /* ExpandableDescription.swift */; };
+		0EF2C0542D68756A00B082FF /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2C0532D68756A00B082FF /* HomeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		0E0C81602D67D53E002021C9 /* Voltis LabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voltis LabsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0C81642D67D53E002021C9 /* Voltis_LabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voltis_LabsUITests.swift; sourceTree = "<group>"; };
 		0E0C81662D67D53E002021C9 /* Voltis_LabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voltis_LabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E0C81742D67DBFC002021C9 /* LaunchscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchscreenView.swift; sourceTree = "<group>"; };
+		0E0C81762D67E8F0002021C9 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0E15C21B2D68A1D900C56AAF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0E15C21E2D68BF6300C56AAF /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		0E15C2222D68D06900C56AAF /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		0E15C2242D68D0D100C56AAF /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		0E15C2262D68D0F400C56AAF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0E15C2282D68D10A00C56AAF /* InfinityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityView.swift; sourceTree = "<group>"; };
+		0E15C22A2D68D22000C56AAF /* ExpandableDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableDescription.swift; sourceTree = "<group>"; };
+		0EF2C0532D68756A00B082FF /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,10 @@
 			children = (
 				0E0C81492D67D538002021C9 /* Voltis_LabsApp.swift */,
 				0E0C814B2D67D538002021C9 /* ContentView.swift */,
+				0E15C2212D68D04800C56AAF /* Tabs */,
+				0E15C2202D68D01400C56AAF /* Post Views */,
+				0E15C21D2D68BF4800C56AAF /* Post Model */,
+				0E0C81732D67DB97002021C9 /* Authentication Views */,
 				0E0C814D2D67D53D002021C9 /* Assets.xcassets */,
 				0E0C814F2D67D53D002021C9 /* Preview Content */,
 			);
@@ -125,6 +149,44 @@
 				0E0C81662D67D53E002021C9 /* Voltis_LabsUITestsLaunchTests.swift */,
 			);
 			path = "Voltis LabsUITests";
+			sourceTree = "<group>";
+		};
+		0E0C81732D67DB97002021C9 /* Authentication Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E0C81742D67DBFC002021C9 /* LaunchscreenView.swift */,
+				0E0C81762D67E8F0002021C9 /* LogInView.swift */,
+			);
+			path = "Authentication Views";
+			sourceTree = "<group>";
+		};
+		0E15C21D2D68BF4800C56AAF /* Post Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E15C21E2D68BF6300C56AAF /* PostModel.swift */,
+			);
+			path = "Post Model";
+			sourceTree = "<group>";
+		};
+		0E15C2202D68D01400C56AAF /* Post Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E15C21B2D68A1D900C56AAF /* HomeView.swift */,
+				0E15C22A2D68D22000C56AAF /* ExpandableDescription.swift */,
+			);
+			path = "Post Views";
+			sourceTree = "<group>";
+		};
+		0E15C2212D68D04800C56AAF /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0EF2C0532D68756A00B082FF /* HomeTabView.swift */,
+				0E15C2222D68D06900C56AAF /* ExploreView.swift */,
+				0E15C2242D68D0D100C56AAF /* CaptureView.swift */,
+				0E15C2262D68D0F400C56AAF /* ProfileView.swift */,
+				0E15C2282D68D10A00C56AAF /* InfinityView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +319,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E15C2292D68D10A00C56AAF /* InfinityView.swift in Sources */,
+				0EF2C0542D68756A00B082FF /* HomeTabView.swift in Sources */,
+				0E15C22B2D68D22000C56AAF /* ExpandableDescription.swift in Sources */,
+				0E0C81752D67DBFC002021C9 /* LaunchscreenView.swift in Sources */,
+				0E15C2272D68D0F400C56AAF /* ProfileView.swift in Sources */,
+				0E15C2252D68D0D100C56AAF /* CaptureView.swift in Sources */,
 				0E0C814C2D67D538002021C9 /* ContentView.swift in Sources */,
+				0E15C21F2D68BF6300C56AAF /* PostModel.swift in Sources */,
+				0E15C21C2D68A1D900C56AAF /* HomeView.swift in Sources */,
+				0E0C81772D67E8F0002021C9 /* LogInView.swift in Sources */,
+				0E15C2232D68D06900C56AAF /* ExploreView.swift in Sources */,
 				0E0C814A2D67D538002021C9 /* Voltis_LabsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
