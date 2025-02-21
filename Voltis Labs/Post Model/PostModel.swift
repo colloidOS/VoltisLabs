@@ -22,7 +22,7 @@ let samplePosts: [Post] = [
          postImage: ["FeedImage1", "FeedImage2", "FeedImage1", "FeedImage2", "FeedImage1"],
          firstName: "Jennifer",
          lastName: "Lewis",
-         description: "Unleash your style with our revolutionary product. Elevate your fashion game like never before. Use our product today and get the best out of premium #FashionForward #Fashio...**Read more...**",
+         description: "Unleash your style with our revolutionary product. Elevate your fashion game like never before. Use our product today and get the best out of premium #FashionForward #Fashion #Style #Fashionova #Epic #MyStyle",
          location: nil),
     Post(displayPicture: "FeedImage2",
          postImage: ["FeedImage2", "FeedImage1", "FeedImage2", "FeedImage1", "FeedImage2"],

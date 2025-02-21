@@ -78,13 +78,7 @@ struct PostView: View {
 
     let post: Post
     @State private var isLiked: Bool = false
-    var descriptionParts: (firstPart: String, blueWord: String, lastPart: String) {
-            let firstPart = "Unleash your style with our revolutionary product. Elevate your fashion game like never before. Use our "
-            let blueWord = "product"
-            let lastPart = " today and get the best out of premium #FashionForward #Fashion #Fashionava"
-            return (firstPart, blueWord, lastPart)
-        }
-    var body: some View {
+        var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
                 HStack(alignment: .top, spacing: 10) {
@@ -134,7 +128,6 @@ struct PostView: View {
                             Image(post.postImage.first ?? "")
                                 .resizable()
                                 .scaledToFill()
-//                                .clipped()
                             HStack(spacing: 16) {
                                 Button(action: {
                                         withAnimation(.easeInOut(duration: 0.3)) {
