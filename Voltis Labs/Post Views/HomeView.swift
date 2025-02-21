@@ -67,6 +67,7 @@ struct HomeView: View {
                     .padding(.vertical)
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 
@@ -140,7 +141,7 @@ struct PostView: View {
                                             .scaleEffect(isLiked ? 1.1 : 1.0)
                                     }
                                 
-                                Image("BookmarkIcon")
+                                Image("BookMarkIcon")
                                     .font(.system(size: 24))
                                     .foregroundColor(.vlBrown)
                                 Spacer()
@@ -205,7 +206,7 @@ struct CarouselFeedImageView: View {
                             .scaleEffect(isLiked ? 1.1 : 1.0)
                     }
                 
-                Image("BookmarkIcon")
+                Image("BookMarkIcon")
                     .font(.system(size: 24))
                     .foregroundColor(.vlBrown)
                 Spacer()

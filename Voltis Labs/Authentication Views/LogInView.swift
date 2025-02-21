@@ -97,8 +97,8 @@ struct LogInView: View {
                 }
                 
                 
-                Button{
-                    
+                NavigationLink{
+                    HomeTabView()
                 } label: {
                     Text("Log in")
                         .foregroundStyle(.white)

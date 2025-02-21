@@ -64,8 +64,8 @@ struct LaunchscreenView: View {
                     .padding(.top, 40)
                     .padding(.bottom, 10)
                 }
-                .frame(maxHeight: .infinity, alignment: .bottom)
-                .ignoresSafeArea(edges: [.bottom])
+//                .frame(maxHeight: .infinity, alignment: .bottom)
+//                .ignoresSafeArea(edges: [.bottom])
             }
         }
     }
